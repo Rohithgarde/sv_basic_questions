@@ -17,5 +17,6 @@ program fork_join_any;
            end
          join_any
     $display(" time = %d Outside the main fork ",$time );
+wait fork;
    end 
    endprogram
